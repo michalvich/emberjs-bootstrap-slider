@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    Bootstrap.BootStrapSlider = Ember.TextField.extend({
+    Bootstrap.BootstrapSlider = Ember.TextField.extend({
 
         attributeBindings: ['max', 'value'],
 
