@@ -1,0 +1,26 @@
+{
+  "name": "emberjs-bootstrap-slider",
+  "version": "1",
+  "homepage": "https://github.com/michalvich/emberjs-bootstrap-slider",
+  "authors": [
+    "michal.vich@gmail.com"
+  ],
+  "main": "slider.js",
+  "keywords": [
+    "emberjs",
+    "slider",
+    "bootstrap-slider",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "seiyria-bootstrap-slider": "~3.1.0"
+  }
+}
