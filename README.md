@@ -8,4 +8,4 @@ See [bootstrap-slider](https://github.com/seiyria/bootstrap-slider) for examples
 Sample Usage
 ============
 ```html
-{{view Bootstrap.BoostrapSlider value=value max=100}}
+{{view BootstrapSlider.Slider value=value max=100}}
