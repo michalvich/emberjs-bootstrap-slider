@@ -1,7 +1,22 @@
-(function () {
-    'use strict';
+(function() {
+    var BootstrapSlider;
 
-    Bootstrap.BootstrapSlider = Ember.TextField.extend({
+    BootstrapSlider = window.BootstrapSlider = Ember.Namespace.create();
+
+}).call(this);
+
+(function() {
+    var BootstrapSlider, get;
+
+    BootstrapSlider = window.BootstrapSlider;
+
+    get = Ember.get;
+
+}).call(this);
+
+(function() {
+
+    BootstrapSlider.Slider = Ember.TextField.extend({
 
         attributeBindings: ['max', 'value'],
 
@@ -38,4 +53,4 @@
 
     });
 
-})();
+}).call(this);
