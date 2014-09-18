@@ -18,12 +18,13 @@
 
     BootstrapSlider.Slider = Ember.TextField.extend({
 
-        attributeBindings: ['max', 'value'],
+        attributeBindings: ['max', 'value', 'handle'],
 
         updateValue: function() {
             this.$().slider({
                 max: this.get('max'),
                 value: this.get('value'),
+                handle: this.get('handle'),
                 tooltip: 'hide'
             });
         }.observes('value'),
@@ -33,6 +34,7 @@
             this.$().slider({
                 max: this.get('max'),
                 value: this.get('value'),
+                handle: this.get('handle'),
                 tooltip: 'hide'
             });
 
